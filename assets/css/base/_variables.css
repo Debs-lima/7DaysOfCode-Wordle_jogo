@@ -1,0 +1,18 @@
+:root {
+  --amarelo-btn-logo: #F9FF00;
+  --amarelo-letter: #B59F3B;
+  --amarelo-warning: ;
+  --branco-letter: #ffffff;
+  --cinza-letter-unclicked: #818384;
+  --cinza-letter: #585858;
+  --preto-bg: #14161C;
+  --preto-logo: #2F2D2D;
+  --verde-letter: #538D4E;
+  --verde-warning: #2B5028;
+  --vermelho-letter: #5F0F1D;
+  --vermelho-warning: #BA4747;
+
+  --font-size-keyboard: 1.38rem;
+  --font-size-board: 2.25rem;
+  --font-size-warning-btn: 1rem;
+}

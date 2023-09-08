@@ -1,0 +1,114 @@
+header {
+  border-bottom: 1px solid var(--cinza-letter);
+}
+
+.logo {
+  margin: 24px 0 16px 72px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  margin-top: 96px;
+}
+
+#board {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attempt {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.letter {
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--cinza-letter);
+}
+
+#keyboard {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#keyboard button {
+  background: var(--cinza-letter-unclicked);
+  height: 40px;
+  min-width: 32px;
+}
+
+.querty {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 6px;;
+}
+
+.letter-btn {
+  color: var(--branco-letter);
+  font-size: 1.38rem;
+  width: 100%;
+  padding: 8px;
+}
+
+.material-symbols-sharp {
+  width: 24px;
+}
+
+#keyboard button:hover {
+  cursor: pointer;
+  background: var(--cinza-letter);
+}
+
+@media screen and (max-width: 500px){
+  .logo {
+    margin-left: 32px;
+  }
+
+  .letter {
+    width: 48px;
+    height: 48px;
+  }
+
+  #keyboard {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  #keyboard button {
+    background: var(--cinza-letter-unclicked);
+    height: 40px;
+    min-width: 28px;
+  }
+
+  .letter-btn {
+    font-size: 0.88rem;
+    padding: 0;
+  }
+
+  #enter .letter-btn {
+    font-size: 10px;
+    padding: 0;
+  }
+
+  .material-symbols-sharp {
+    width: 24px;
+    
+  }
+}
