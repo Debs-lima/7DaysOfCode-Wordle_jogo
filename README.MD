@@ -10,7 +10,7 @@ Construir sua versão do jogo Wordle. O Wordle é um jogo de palavras em que o o
 ## Desafio
 <hr>
 Construir esta aplicação utilizando HTML, CSS e JavaScript puro a partir do <a href="https://www.figma.com/file/bKKIv0BSdVrzlMG79phJop/7DaysofCode---Wordle?type=design&node-id=0%3A1&mode=design&t=IuS9uLemzSCa83T1-1">Figma</a> disponibilizado.  
-<img align="right" src="./assets/images/solved.gif" width="300" alt="Gif do Homer Simpson comemorando ter solucionado o wordle.">
+<img align="right" src="./src/assets/images/solved.gif" width="300" alt="Gif do Homer Simpson comemorando ter solucionado o wordle.">
 
 **Tecnologias**
 - HTML
@@ -38,3 +38,7 @@ Dar início ao desenvolvimento de funcionalidades usando JavaScript. Além do ma
 <br>
 - Criar a função responsável por escolher randomicamente a palavra que será adivinhada no jogo.
 - Escrever testes de unidade para esta função, utilizando Jest e criando mocks.
+
+**OBS:**
+<br>
+Ao invés de criar uma lista por meio de um arquivo JSON, utilizei a lib <a href="https://www.npmjs.com/package/random-words">RANDON-WORDS</a>. 
