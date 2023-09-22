@@ -41,4 +41,23 @@ Dar início ao desenvolvimento de funcionalidades usando JavaScript. Além do ma
 
 **OBS:**
 <br>
-Ao invés de criar uma lista por meio de um arquivo JSON, utilizei a lib <a href="https://www.npmjs.com/package/random-words">RANDON-WORDS</a>. 
+Tentei utilizar a lib <a href="https://www.npmjs.com/package/random-words">RANDON-WORDS</a>, entretanto não consegui utilizá-lo num projeto js puro. Assim, criei uma lista por meio de um arquivo JSON utilizando a listagem de palavras existente nessa biblioteca. 
+
+### Dia 3
+<hr>
+Começar a tornar a sua página mais dinâmica e interativa: você vai desenvolver toda a lógica para realizar palpites.
+
+<br>
+
+**Objetivo**
+<br>
+Desenvolver a lógica considerando as seguintes regras:
+- O usuário pode pressionar apenas:
+Teclas de A-Z
+E as teclas de Enter e Backspace/Delete
+- Somente pode validar o palpite, se:
+O palpite estiver completo (com 5 letras)
+A palavra existir no banco de palavras
+- Lembrar do máximo de 5 letras por palpite
+- Lembrar que o jogador vai poder fazer até 6 palpites
+- O usuário pode apagar a(s) letra(s) de um palpite enquanto não pressiona a tecla Enter
