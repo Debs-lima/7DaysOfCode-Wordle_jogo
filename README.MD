@@ -53,10 +53,14 @@ Começar a tornar a sua página mais dinâmica e interativa: você vai desenvolv
 <br>
 Desenvolver a lógica considerando as seguintes regras:
 - O usuário pode pressionar apenas:
+<br>
 Teclas de A-Z
+<br>
 E as teclas de Enter e Backspace/Delete
 - Somente pode validar o palpite, se:
+<br>
 O palpite estiver completo (com 5 letras)
+<br>
 A palavra existir no banco de palavras
 - Lembrar do máximo de 5 letras por palpite
 - Lembrar que o jogador vai poder fazer até 6 palpites
